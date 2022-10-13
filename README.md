@@ -1,7 +1,7 @@
 # SQL-DVD-rental-database-Power-BI-dashboard
-My goal here was to display meaningful information with the use of Power BI.
+My goal here was to display meaningful information from the dvd rental company's PostgreSQL database with the use of Power BI.
 
-I started off by importing all the tables from the database schema. I replicated the schema on Power BI to create a data model.
+I started off by importing all the tables from the PostgreSQL database schema. I replicated the schema on Power BI to create a data model.
 
 When the data model was completed, I tested it by using the matrix visualisation. I quickly realised that the model couldnt accurately filter data by: film category and address and thus I couldn't filter by city and country either. This was caused by the many-to-many connections I found between several tables in the data model. 
 
